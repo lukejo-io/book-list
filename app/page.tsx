@@ -2,7 +2,7 @@ import { works } from "@/app/resources";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-amber-50 p-24">
+    <main className="min-h-screen bg-amber-50 md:p-24">
       <div className="flex flex-row flex-wrap gap-2 bg-black justify-center">
         {works.map(
           ({ author, begin_date, era, date_is_certain, end_date, titles }) => {
